@@ -68,12 +68,18 @@
 
 //Atividade 05 - Varredura de Compromissos
 
-// agendaHorarios = [8, 12, 25, 15, -2, 20]
+agendaHorarios = [8, 12, 25, 15, -2, 20]
+contagemValidos = 0;
 
-// for (let horario of agendaHorarios){
-//     if (horario >= 0 && horario < 24){
-//         alert("Compromisso agendado para as " + horario)
-//     } else if (horario < 0 || horario >= 24){
-//         alert("O horario " + horario + " h não é valido")
-//     }
-// }
+for (let horario of agendaHorarios){
+    if (horario >= 0 && horario < 24){
+        alert("Compromisso agendado para as " + horario);
+        contagemValidos += 1;
+    } else if (horario < 0 || horario >= 24){
+        alert("O horario " + horario + " h não é valido")
+    }
+}
+
+alert("A quantidade de horarios validos é " + contagemValidos)
+
+
