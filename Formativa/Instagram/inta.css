@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+
+}
+
+.stories{
+    margin-bottom: 70px;
+    img{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.reels{
+    margin-bottom: 70px;
+    img{
+        height: 170px;
+        width: 170px;
+    }
+}    
+
+footer{
+    margin-top: 70px;
+    img{
+        height: 50px;
+        width: 50px;
+    };
+}
+
+.tudo{
+    display: grid;
+}
