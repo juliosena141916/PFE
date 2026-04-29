@@ -7,8 +7,8 @@ const [priority, setPriority] = useState("Baixa");
 const [taskList, setTaskList] = useState([]);
 const [filter, setFilter] = useState("Todas");
 const [searchTerm, setSearchTerm] = useState("");
-const [editingId, setEditingId] = useState(null); // Armazena o ID da tarefa sendo editada
-const [tempEditText, setTempEditText] = useState(""); // Armazena o texto temporário da edição
+const [editingId, setEditingId] = useState(null); 
+const [tempEditText, setTempEditText] = useState("");
 
 useEffect(() => {
 const saved = localStorage.getItem("@taskflow_data");
